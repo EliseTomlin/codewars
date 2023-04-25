@@ -52,3 +52,7 @@ function positiveSum(arr) {
      function positiveSum (arr) {
         return arr.filter(x => x>=0).reduce((a, c) => a + c, 0);
       }
+
+      //=======================================================
+
+      const positiveSum = (arr) => arr.reduce((sum, n) => n > 0 ? sum + n : sum, 0);
